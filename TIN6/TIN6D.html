@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="s18597">
+    <meta name="Description" content="TIN6D">
+    <title>TIN6D</title>
+    <link rel="stylesheet" href="TIN6D.css">
+</head>
+<body>
+<form action="">
+    <label for="force">Side of the force</label><br>
+    <input type="text" id="force" name="force" required>
+    <br><br>
+    <label for="lightsaber">Lightsaber color</label><br>
+    <input type="text" id="lightsaber" name="lightsaber" required><br>
+    <br>
+    <button onclick="addRow(); return false;" id="b">Submit</button>
+</form>
+
+<table id="table">
+    <br>
+    <tr>
+        <th>Force</th>
+        <th>Lightsaber</th>
+    </tr>
+</table>
+<script src="TIN6D.js"></script>
+</body>
+</html>
